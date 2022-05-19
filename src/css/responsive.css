@@ -1,0 +1,85 @@
+@media (min-width: 375px){
+
+    hr{
+        height: 0;
+        width: 50%;
+    }
+
+    header .search-box{
+        height: 50vh;
+        justify-content: flex-start;
+    }
+
+    header .search-box h1 {
+        margin: 0;
+        padding: 20px;
+    }
+
+    header .input input{
+        width: 40vh;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .isp-informations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
+        width: 70vw;
+        transform: translateY(-50%);
+    }
+
+    section .isp-informations.hidden{
+        opacity: 0;
+    }
+
+
+    section .informations{
+        padding: 5px;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    section .informations > span:nth-child(1){
+        text-align: center;
+    }
+    section .informations > span:nth-child(2){
+        text-align: center;
+    }
+    #map{
+        height: 100vh;
+        transform: translateY(-40%);
+    }
+}
+
+@media (min-width: 765px){
+
+    hr{
+        height: 50%;
+        width: 0;
+    }
+
+    header .search-box {
+        height: 50vh;
+        justify-content: center;
+    }
+    section .isp-informations {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 15vh;
+    }
+
+    section .isp-informations.hidden{
+        opacity: 0;
+    }
+
+    #map{
+        transform: translateY(-15%);
+    }
+}
+
+
